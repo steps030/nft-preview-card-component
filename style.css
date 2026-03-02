@@ -1,0 +1,40 @@
+/* Basic Styles */
+:root {
+  /** Colors **/
+
+  /*** Primary Colors ***/
+  --color-primary: hsl(215, 51%, 70%);
+  --color-secondary: hsl(178, 100%, 50%);
+
+  /*** Neutral Colors ***/
+  --color-neutral-main-bg: hsl(217, 54%, 11%);
+  --color-neutral-card-bg: hsl(216, 50%, 16%);
+  --color-blue-line: hsl(215, 32%, 27%)
+  --color-white-text: hsl(0, 0%, 100%);
+
+  /** Typography **/
+
+  /*** Font size ***/
+  --font-size-paragraph; 1.8rem;
+  /*** Font-family  ***/
+  --font-family: 'Outfit', sans-serif;
+  /*** Font-weights  ***/
+  --font-weight-thin: 300;
+  --font-weight-normal: 400;
+  --font-weight-bold: 600;
+}
+
+/* Global Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-family);
+}
