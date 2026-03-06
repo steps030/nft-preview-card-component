@@ -1,42 +1,45 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-    <title>Frontend Mentor | NFT preview card component</title>
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com" />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
-      rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="style.css" />
-  </head>
-  <body>
-    <!-- 
-  Equilibrium #3429
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-  Our Equilibrium collection promotes balance and calm.
+  <title>Frontend Mentor | NFT preview card component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern -->
-  </body>
+<body>
+  <main class="card">
+    <div class="wrapper">
+      <img src="./images/image-equilibrium.jpg"
+        alt="Leuchtender glasartiger Würfel mit Lichtreflexionen" class="card-img" />
+      <div class="image-overlay">
+        <img class="card-img-icon" src="./images/icon-view.svg" alt="ein auge">
+      </div>
+    </div>
+    <h1 class="card-headline">Equilibrium #3429 </h1>
+
+    <p class="card-description">Our Equilibrium collection promotes balance and calm.</p>
+    <div class="card-info">
+      <span class="card-info-eth">
+        <img src="./images/icon-ethereum.svg" alt="etherum" />0.041ETH</span>
+      <span class="card-info-clock">
+        <img src="./images/icon-clock.svg" alt="" />3 days left</span>
+    </div>
+    <div class="divider"></div>
+    <div class="card-author">
+      <img class="author-img" src="./images/image-avatar.png" alt="Jules Wyvern Profile iamge" />
+      <p class="author-name"><span>Creation of</span> Jules Wyvern</p>
+    </div>
+  </main>
+</body>
+
 </html>
